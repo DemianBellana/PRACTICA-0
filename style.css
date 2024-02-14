@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+body{
+    background: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    width: 100dvw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: url(luna.jpeg);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2528509c;
+    border: 1px solid #252850;
+    border-radius: 10px;
+    width: 25%;
+    height: 70%;
+    box-shadow: 10px 10px 5px rgba(35, 11, 139, 0.24); 
+}
+
+.divTop {
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+
+img{
+    display: block;
+    max-width: 40%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.divBtn{
+   
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 45px;
+    font-family: sacramento;
+    color: rgb(215, 212, 245);
+    
+}
+
+h2{
+    font-size: 40px;
+    font-family: honk;
+}
+
+p{
+    font-size: 16px;
+    font-family: kalam;
+}
+
+ul, a{
+    color: rgb(215, 212, 245);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: kalam;
+}
+
+ul{
+    list-style: none;
+}
