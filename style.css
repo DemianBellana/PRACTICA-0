@@ -15,7 +15,7 @@ body{
     justify-content: center;
     display: flex;
     align-items: center;
-    background: url(luna.jpeg);
+    background: url(img/luna.jpeg);
 }
 
 main{
@@ -26,8 +26,8 @@ main{
     background-color: #2528509c;
     border: 1px solid #252850;
     border-radius: 10px;
-    width: 25%;
-    height: 70%;
+    width: 26%;
+    height: 65%;
     box-shadow: 10px 10px 5px rgba(35, 11, 139, 0.24); 
 }
 
@@ -44,6 +44,7 @@ img{
     border-radius: 50%;
     margin: 0 auto;
 }
+
 
 .divBtn{
    
@@ -64,7 +65,7 @@ h2{
 }
 
 p{
-    font-size: 16px;
+    font-size: 15px;
     font-family: kalam;
 }
 
@@ -73,6 +74,12 @@ ul, a{
     font-size: 20px;
     text-decoration: none;
     font-family: kalam;
+}
+
+a:hover{
+   transition: 2s;
+    color: rgb(77, 255, 6);
+    font-size: 23px;  
 }
 
 ul{
